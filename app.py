@@ -28,7 +28,7 @@ with st.form("prediction_form"):
         sleep_hours = st.slider("Sleep Hours", 4.0, 12.0, 7.0, 0.5)
         attendance = st.slider("Attendance %", 0, 100, 85)
         part_time = st.selectbox("Part-time Job", ["Yes", "No"])
-    
+
     submitted = st.form_submit_button("Predict Performance")
 
 if submitted:

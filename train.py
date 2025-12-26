@@ -18,7 +18,7 @@ numeric_features = [
     "age", "study_hours_per_day", "social_media_hours",
     "sleep_hours", "attendance_percentage"
 ]
-categorical_features = ["gender", "part_time_job", "extracurricular_participation"]
+categorical_features = ["gender", "part_time_job"]
 
 # Prepare X and y
 X = df[numeric_features + categorical_features]
